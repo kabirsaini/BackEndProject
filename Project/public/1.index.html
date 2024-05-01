@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="2.style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="images/chat.png" alt="">
+        <h1>BuzzChat</h1>
+    </nav>
+
+    <div class="chat-container">
+
+        <div class="UsersOnB">
+            <div id="title">
+                <h3>OnBoard</h3>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div id="Chat-title">
+                <img src="images/groupchat.png">
+                <h2>Group Chat</h2>
+            </div>
+
+            <div id="Chat-content">
+
+            </div>
+
+            <div class="send">
+                <form action="#" id="send-container">
+                    <input type="text" name="messageInp" id="messageInp" placeholder="Message">
+                    <button class="btn" type="submit"></button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
